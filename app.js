@@ -13,21 +13,21 @@ jobData.forEach(job => {
     <div class="bg-white p-3" style="border-radius: 10px; box-shadow: 0px 10px 18px -3px rgba(7,4,0,5.1);">
 
                     <div class="d-flex justify-content-between align-items-center w-100">
-                      <h6 id="CPNYName" class="m-2" >${job.companyName || "Un Mentioned"}</h6>
+                      <h6 id="CPNYName" class="m-2" >${job.companyName || "Not Mentioned"}</h6>
                       <img class="m-2" src="./images/innerlogo.png" width="30rem" style="border-radius: 50px; box-shadow: 0px 10px 18px -2px rgba(10,4,0,5.1);">
                     </div>
 
-                    <h5 id="DESTN" class="m-2">${job.designation || "Un Mentioned"}</h5>
+                    <h5 id="DESTN" class="m-2">${job.designation || "Not Mentioned"}</h5>
 
-                    <h5 id="SALRY" class="m-2" >${job.salary || "Un Mentioned"}</h5>
+                    <h5 id="SALRY" class="m-2" >${job.salary || "Not Mentioned"}</h5>
 
-                    <button id="BUTTON" class="d-flex justify-content-center align-items-center btn btn-outline-primary" class="m-2">ONSiTE</button>
+                    
 
                     <h5 id="experience" class="m-2">${job.experience || "Not Mentioned"}</h5>
 
                     <p id="desc" class="m-2">${job.desc.slice(0 ,100) || "Not Mentioned"}</p>
 
-
+                    <button id="BUTTON" class="d-flex justify-content-center align-items-center btn btn-outline-primary" class="m-2">ONSiTE</button>
 
                     <div class="d-flex justify-content-center align-items-center">
                       <h6 id="CITY" class="p-2 text-uppercase m-0">${job.city || "Not Mentioned"}</h6>
