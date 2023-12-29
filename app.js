@@ -8,9 +8,9 @@ com.innerHTML = ''
 
 jobData.forEach(job => {
     com.innerHTML += `
-    <div class="col-lg-5 col-sm-12 col-md-5 m-2"  >
+    <div class="col-lg-5 col-sm-12 col-md-5 m-2 mt-2"  >
 
-    <div class="bg-white p-3" style="border-radius: 10px; box-shadow: 0px 10px 18px -3px rgba(7,4,0,5.1);">
+    <div class="bg-white p-3" style="border-radius: 10px; box-shadow: 0px 10px 18px -3px rgba(7,4,150,5.1);">
 
                     <div class="d-flex justify-content-between align-items-center w-100">
                       <h6 id="CPNYName" class="m-2" >${job.companyName || "Not Mentioned"}</h6>
