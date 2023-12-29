@@ -27,12 +27,14 @@ jobData.forEach(job => {
 
                     <p id="desc" class="m-2">${job.desc.slice(0 ,100) || "Not Mentioned"}</p>
 
-                    <button id="BUTTON" class="d-flex justify-content-center align-items-center btn btn-outline-primary" class="m-2">ONSiTE</button>
 
                     <div class="d-flex justify-content-center align-items-center">
                       <h6 id="CITY" class="p-2 text-uppercase m-0">${job.city || "Not Mentioned"}</h6>
                       <h6 id="COUNTRY" class="p-2 text-uppercase m-0">${job.country || "Not Mentioned"}</h6>
                     </div>
+
+
+                   <button id="BUTTON" class="d-flex justify-content-center align-items-center btn btn-outline-primary" class="m-2">ONSiTE</button>
 
                     <div class=" d-flex justify-content-between">
                       <p class="m-2 p-2" id="views">${job.views} Views </p>
